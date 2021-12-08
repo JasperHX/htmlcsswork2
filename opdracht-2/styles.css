@@ -23,22 +23,28 @@
 
 /*Ik krijg bij deze opdracht geen ruimte bij de class list tussen de list items. Geen idee wat ik mis of fout doe */
 
-.three {
+.three  {
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-
 }
 
-.three > .list   {
+.list {
     display: flex;
-    align-content: flex-end;
+    flex-direction: row;
+    gap: 60px;
 }
 
-.three > .last {
+.last   {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+}
+
+.items  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
 .three > ul {
@@ -47,9 +53,25 @@
 
 /*opdracht 2.4*/
 
-/*Niet meer aan toegekomen. Maak ik later*/
+.form-field {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
 
 /*opdracht 2.5*/
+
+.five   {
+    display: flex;
+
+
+}
+
+.articles   {
+    display: flex;
+    flex-flow: row wrap;
+}
 
 /*Niet meer aan toegekomen. Maak ik later*/
 
